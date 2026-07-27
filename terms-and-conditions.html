@@ -4,6 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Terms and Conditions | Resolvera Help Center</title>
+    <!-- Favicon Link Tags -->
+    <link rel="icon" type="image/svg+xml" href="favicon.svg">
+    <link rel="alternate icon" href="favicon.ico">
     <style>
         /* --- CSS VARIABLES & RESET --- */
         :root {
@@ -50,7 +53,7 @@
             top: 0;
             left: 0;
             right: 0;
-            background: rgba(255, 255, 255, 0.95);
+            background: rgba(255, 255, 255, 0.98);
             backdrop-filter: blur(10px);
             box-shadow: 0 1px 3px rgba(0,0,0,0.05);
             z-index: 1000;
@@ -195,9 +198,11 @@
             color: white;
         }
 
-        @media (max-width: 600px) {
+        /* --- MOBILE RESPONSIVE MEDIA QUERIES --- */
+        @media (max-width: 768px) {
             .content-wrapper { padding: 24px; }
             .page-header h1 { font-size: 2rem; }
+            .page-header { padding: 110px 0 50px; }
         }
     </style>
 </head>
@@ -206,7 +211,9 @@
     <!-- NAVBAR -->
     <header>
         <nav>
-            <a href="index.html" class="logo">💬 Resolvera</a>
+            <a href="index.html" class="logo">
+                <img src="favicon.svg" alt="logo" width="30"> Resolvera
+            </a>
             <a href="index.html" class="back-link">&larr; Back to Support</a>
         </nav>
     </header>
@@ -307,7 +314,6 @@
                     <strong>Resolvera Legal Department</strong><br>
                     Email: <a href="mailto:resolvera@gmail.com" style="color: var(--primary);">resolvera@gmail.com</a><br>
                     Address: Torch Club 18 Waverly Pl, New York, NY 10003, USA
-
                 </p>
             </div>
 
