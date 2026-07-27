@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Terms and Conditions | Resolvera Help Center</title>
+    <style>
+        /* --- CSS VARIABLES & RESET --- */
+        :root {
+            --primary: #2563eb;
+            --primary-dark: #1d4ed8;
+            --secondary: #0f172a;
+            --bg-light: #f8fafc;
+            --surface: #ffffff;
+            --text-main: #334155;
+            --text-heading: #0f172a;
+            --border-color: #e2e8f0;
+            --shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.05), 0 2px 4px -1px rgba(0, 0, 0, 0.03);
+            --radius: 12px;
+            --transition: all 0.3s ease;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+        }
+
+        html {
+            scroll-behavior: smooth;
+        }
+
+        body {
+            background-color: var(--bg-light);
+            color: var(--text-main);
+            line-height: 1.7;
+        }
+
+        /* --- UTILITY CLASSES --- */
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+
+        /* --- HEADER & NAVIGATION --- */
+        header {
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            background: rgba(255, 255, 255, 0.95);
+            backdrop-filter: blur(10px);
+            box-shadow: 0 1px 3px rgba(0,0,0,0.05);
+            z-index: 1000;
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            height: 70px;
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+
+        .logo {
+            font-size: 1.4rem;
+            font-weight: 700;
+            color: var(--primary);
+            text-decoration: none;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+
+        .back-link {
+            text-decoration: none;
+            color: var(--primary);
+            font-weight: 600;
+            font-size: 0.95rem;
+            transition: var(--transition);
+        }
+
+        .back-link:hover {
+            color: var(--primary-dark);
+            text-decoration: underline;
+        }
+
+        /* --- HERO HEADER --- */
+        .page-header {
+            background: linear-gradient(135deg, #1e293b 0%, #0f172a 100%);
+            color: white;
+            padding: 130px 0 60px;
+            text-align: center;
+        }
+
+        .page-header h1 {
+            font-size: 2.5rem;
+            margin-bottom: 0.5rem;
+        }
+
+        .page-header p {
+            color: #94a3b8;
+            font-size: 1rem;
+        }
+
+        /* --- CONTENT CONTAINER --- */
+        .content-wrapper {
+            background: var(--surface);
+            padding: 40px;
+            margin: -30px auto 60px;
+            border-radius: var(--radius);
+            box-shadow: var(--shadow);
+            border: 1px solid var(--border-color);
+        }
+
+        /* Table of Contents */
+        .toc {
+            background-color: var(--bg-light);
+            border: 1px solid var(--border-color);
+            padding: 20px 24px;
+            border-radius: 8px;
+            margin-bottom: 30px;
+        }
+
+        .toc h3 {
+            color: var(--text-heading);
+            font-size: 1.1rem;
+            margin-bottom: 10px;
+        }
+
+        .toc ul {
+            list-style: none;
+            padding-left: 0;
+        }
+
+        .toc li {
+            margin-bottom: 6px;
+        }
+
+        .toc a {
+            color: var(--primary);
+            text-decoration: none;
+            font-size: 0.95rem;
+        }
+
+        .toc a:hover {
+            text-decoration: underline;
+        }
+
+        /* Terms Typography */
+        .terms-section {
+            margin-bottom: 35px;
+        }
+
+        .terms-section h2 {
+            color: var(--text-heading);
+            font-size: 1.5rem;
+            margin-bottom: 12px;
+            padding-bottom: 8px;
+            border-bottom: 2px solid var(--border-color);
+        }
+
+        .terms-section p {
+            margin-bottom: 12px;
+        }
+
+        .terms-section ul {
+            margin-left: 20px;
+            margin-bottom: 12px;
+        }
+
+        .terms-section li {
+            margin-bottom: 6px;
+        }
+
+        /* --- FOOTER --- */
+        footer {
+            background: var(--secondary);
+            color: #94a3b8;
+            padding: 30px 0;
+            text-align: center;
+            font-size: 0.9rem;
+        }
+
+        footer a {
+            color: #cbd5e1;
+            text-decoration: underline;
+        }
+
+        footer a:hover {
+            color: white;
+        }
+
+        @media (max-width: 600px) {
+            .content-wrapper { padding: 24px; }
+            .page-header h1 { font-size: 2rem; }
+        }
+    </style>
+</head>
+<body>
+
+    <!-- NAVBAR -->
+    <header>
+        <nav>
+            <a href="index.html" class="logo">💬 Resolvera</a>
+            <a href="index.html" class="back-link">&larr; Back to Support</a>
+        </nav>
+    </header>
+
+    <!-- PAGE HEADER -->
+    <div class="page-header">
+        <div class="container">
+            <h1>Terms and Conditions</h1>
+            <p>Last updated: July 27, 2026</p>
+        </div>
+    </div>
+
+    <!-- MAIN CONTENT -->
+    <div class="container">
+        <div class="content-wrapper">
+
+            <!-- TABLE OF CONTENTS -->
+            <div class="toc">
+                <h3>Quick Navigation</h3>
+                <ul>
+                    <li><a href="#acceptance">1. Acceptance of Terms</a></li>
+                    <li><a href="#support-use">2. Use of Support Services</a></li>
+                    <li><a href="#refund-policy">3. Refund & Cancellation Terms</a></li>
+                    <li><a href="#payment-disputes">4. Payments and Billing Disputes</a></li>
+                    <li><a href="#user-responsibilities">5. User Conduct and Responsibilities</a></li>
+                    <li><a href="#limitation-liability">6. Limitation of Liability</a></li>
+                    <li><a href="#modifications">7. Changes to Terms</a></li>
+                    <li><a href="#contact-support">8. Contact Information</a></li>
+                </ul>
+            </div>
+
+            <!-- SECTION 1 -->
+            <div id="acceptance" class="terms-section">
+                <h2>1. Acceptance of Terms</h2>
+                <p>By accessing or using the <strong>Resolvera</strong> Help & Support Portal, submitting ticket requests, or requesting assistance regarding payment issues, product disputes, or refunds, you agree to be bound by these Terms and Conditions.</p>
+                <p>If you do not agree with any part of these terms, please do not access or submit support requests through this service.</p>
+            </div>
+
+            <!-- SECTION 2 -->
+            <div id="support-use" class="terms-section">
+                <h2>2. Use of Support Services</h2>
+                <p>Our support portal is provided to assist customers with order inquiries, product troubleshooting, payment resolutions, and return processing.</p>
+                <ul>
+                    <li>Support services are available to verified customers who have initiated or completed transactions on our platform.</li>
+                    <li>Response times may vary based on ticket volume, issue complexity, and business operational hours.</li>
+                    <li>Automated support tools and FAQ guidance are provided for convenience only.</li>
+                </ul>
+            </div>
+
+            <!-- SECTION 3 -->
+            <div id="refund-policy" class="terms-section">
+                <h2>3. Refund & Cancellation Terms</h2>
+                <p>All refund requests submitted through the Resolvera support portal are governed by our standard Return & Refund Guidelines:</p>
+                <ul>
+                    <li><strong>Eligibility Window:</strong> Refund requests must be submitted within 30 days of purchase date, unless specified otherwise in product-specific terms.</li>
+                    <li><strong>Condition of Physical Products:</strong> Returned merchandise must be unused, in original packaging, and accompanied by proof of purchase or Order ID.</li>
+                    <li><strong>Processing Time:</strong> Approved refunds will be credited back to the original payment method within 5 to 10 business days depending on your banking institution.</li>
+                    <li><strong>Non-refundable Items:</strong> Digital downloads, customized products, and clearance items are non-refundable unless defective upon delivery.</li>
+                </ul>
+            </div>
+
+            <!-- SECTION 4 -->
+            <div id="payment-disputes" class="terms-section">
+                <h2>4. Payments and Billing Disputes</h2>
+                <p>If you experience duplicate charges, failed payment processing, or unexpected billing errors, you agree to submit a request through Resolvera support before initiating a chargeback with your financial institution.</p>
+                <p>We reserve the right to verify billing ownership, request payment transaction references, and withhold refund approvals in cases of suspected fraudulent claims.</p>
+            </div>
+
+            <!-- SECTION 5 -->
+            <div id="user-responsibilities" class="terms-section">
+                <h2>5. User Conduct and Responsibilities</h2>
+                <p>When interacting with our support personnel or submitting information via contact forms, you agree that you will not:</p>
+                <ul>
+                    <li>Provide false, deceptive, or misleading order information or identification.</li>
+                    <li>Use abusive, threatening, obscene, or discriminatory language toward customer service representatives.</li>
+                    <li>Attempt to upload malicious files, scripts, or content through ticket attachment inputs.</li>
+                </ul>
+                <p>Violation of user conduct rules may result in immediate ticket closure and restriction from future support access.</p>
+            </div>
+
+            <!-- SECTION 6 -->
+            <div id="limitation-liability" class="terms-section">
+                <h2>6. Limitation of Liability</h2>
+                <p>To the fullest extent permitted by applicable law, Resolvera Inc. shall not be liable for any indirect, incidental, or consequential damages resulting from delays in support responses, temporary portal downtime, or processing delays caused by third-party payment gateways.</p>
+            </div>
+
+            <!-- SECTION 7 -->
+            <div id="modifications" class="terms-section">
+                <h2>7. Changes to Terms</h2>
+                <p>We reserve the right to modify or update these Terms and Conditions at any time without prior notice. Any updates will be published on this page with an updated revision date. Your continued use of the support portal constitutes acceptance of those changes.</p>
+            </div>
+
+            <!-- SECTION 8 -->
+            <div id="contact-support" class="terms-section">
+                <h2>8. Contact Information</h2>
+                <p>If you have any legal or procedural questions regarding these Terms and Conditions, please reach out to us at:</p>
+                <p>
+                    <strong>Resolvera Legal Department</strong><br>
+                    Email: <a href="mailto:resolvera@gmail.com" style="color: var(--primary);">resolvera@gmail.com</a><br>
+                    Address: Torch Club 18 Waverly Pl, New York, NY 10003, USA
+
+                </p>
+            </div>
+
+        </div>
+    </div>
+
+    <!-- FOOTER -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2026 Resolvera Inc. All rights reserved. | <a href="index.html">Help Center</a> | <a href="privacy-policy.html">Privacy Policy</a></p>
+        </div>
+    </footer>
+
+</body>
+</html>
